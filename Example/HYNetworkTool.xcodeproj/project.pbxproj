@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7255B44A2BDE40B200FB2F74 /* NSObject+HYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7255B4492BDE40B200FB2F74 /* NSObject+HYLogger.m */; };
+		729110E82BDE4A5200E178DE /* HYScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 729110E72BDE4A5200E178DE /* HYScaner.m */; };
 		79426014554D95E76A3647AE /* Pods_HYNetworkTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD62E741268CCD448B171DC /* Pods_HYNetworkTool_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B286273A4ED9DF78E1E895A2 /* Pods_HYNetworkTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DA92BA3F7ADCF62506CF05 /* Pods_HYNetworkTool_Example.framework */; };
@@ -65,6 +66,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7255B4482BDE40B200FB2F74 /* NSObject+HYLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HYLogger.h"; sourceTree = "<group>"; };
 		7255B4492BDE40B200FB2F74 /* NSObject+HYLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HYLogger.m"; sourceTree = "<group>"; };
+		729110E62BDE4A5200E178DE /* HYScaner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYScaner.h; sourceTree = "<group>"; };
+		729110E72BDE4A5200E178DE /* HYScaner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYScaner.m; sourceTree = "<group>"; };
 		85AB44F097778095BC2F19E2 /* Pods-HYNetworkTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYNetworkTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HYNetworkTool_Tests/Pods-HYNetworkTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89DA92BA3F7ADCF62506CF05 /* Pods_HYNetworkTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYNetworkTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,6 +208,8 @@
 			children = (
 				7255B4482BDE40B200FB2F74 /* NSObject+HYLogger.h */,
 				7255B4492BDE40B200FB2F74 /* NSObject+HYLogger.m */,
+				729110E62BDE4A5200E178DE /* HYScaner.h */,
+				729110E72BDE4A5200E178DE /* HYScaner.m */,
 			);
 			name = Classes;
 			path = ../../HYNetworkTool/Classes;
@@ -400,6 +405,7 @@
 				6003F59E195388D20070C39A /* HYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HYViewController.m in Sources */,
 				7255B44A2BDE40B200FB2F74 /* NSObject+HYLogger.m in Sources */,
+				729110E82BDE4A5200E178DE /* HYScaner.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
