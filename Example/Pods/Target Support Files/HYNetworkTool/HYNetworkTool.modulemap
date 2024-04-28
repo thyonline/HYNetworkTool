@@ -1,0 +1,6 @@
+framework module HYNetworkTool {
+  umbrella header "HYNetworkTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "HYNetworkTool",
+  "version": "0.1.0",
+  "summary": "A short description of HYNetworkTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tanghy10/HYNetworkTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tanghy10": "tanghy10@lenovo.com"
+  },
+  "source": {
+    "git": "https://github.com/tanghy10/HYNetworkTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HYNetworkTool/Classes/**/*"
+}

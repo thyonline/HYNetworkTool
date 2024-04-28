@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HYNetworkTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HYNetworkTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HYNetworkTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HYNetworkTool: af7e64f70d2cd0d198e9249337cb663c078e0b6e
+
+PODFILE CHECKSUM: 3189d93e826975b6ac5b093f0d6263546822b0d5
+
+COCOAPODS: 1.15.2
